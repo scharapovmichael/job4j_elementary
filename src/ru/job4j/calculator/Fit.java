@@ -8,7 +8,7 @@ public class Fit {
          return (height-110)*1.15;
     }
     public static void main(String[] args) {
-        short height = 187;
+        short height = 168;
         double man = Fit.manWeight(height);
          height =160;
         double woman = Fit.womanWeight(height);
