@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class PointEq {
-
     private static boolean compare;
 
     public static boolean eq(int x1, int y1, int x2, int y2) {
@@ -14,3 +13,4 @@ public class PointEq {
         System.out.println(eq(10, 10, 10, 10));
     }
 }
+
