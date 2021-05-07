@@ -9,9 +9,8 @@ public class FactorialTest {
 
     @Test
     public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
-        int a = 1;
         int n = 5;
-        int result = Factorial.calc(a, n);
+        int result = Factorial.calc( n);
         int expected = 120;
         Assert.assertEquals(expected, result);
         /* напишите здесь тест, проверяющий, что факториал для числа 5 равен 120. */
@@ -19,9 +18,8 @@ public class FactorialTest {
 
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
-        int a = 0;
         int n = 0;
-        int result = Factorial.calc(a, n);
+        int result = Factorial.calc( n);
         int expected = 1;
         Assert.assertEquals(expected, result);
         /* напишите здесь тест, проверяющий, что факториал для числа 0 равен 1. */
