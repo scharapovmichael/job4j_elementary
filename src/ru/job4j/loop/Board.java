@@ -6,7 +6,7 @@ public class Board {
             for (int sign = 0; sign <= height; sign++) {
                 /* условие проверки, что писать пробел или X */
                 /* Выше в задании мы определили закономерность, когда нужно проста,влять X */
-                if ((space + sign) % 2 == 1) {
+                if ((space + sign) % 2 == 0) {
                     System.out.print("X");
                 } else {
                     System.out.print(" ");
@@ -22,4 +22,6 @@ public class Board {
         System.out.println();
         paint(4, 4);
     }
-}
+
+    }
+
