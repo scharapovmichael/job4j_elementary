@@ -10,7 +10,6 @@ public class Mortgage {
         }
         return year;
     }
-
 }
 
 
