@@ -1,5 +1,6 @@
 package ru.job4j.loop;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -23,5 +24,6 @@ public class MortgageTest {
         int result = Mortgage.year(amount, salary, percent);
         int expected = 2;
         Assert.assertEquals(expected, result);
+
     }
-    }
+}
