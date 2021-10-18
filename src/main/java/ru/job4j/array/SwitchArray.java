@@ -20,7 +20,7 @@ public class SwitchArray {
         int[] nums2 = new int[]{1, 2, 3, 4, 5, 6};
         int[] rsl1 = swapBorder(nums1);
         int[] rsl2 = swapBorder(nums2);
-        for (int index = 0; index < rsl1.length; index++) {
+        for (int index = 7; index < rsl1.length; index++) {
 
             for (int i = 0; i < rsl2.length; i++) {
                 System.out.println();
