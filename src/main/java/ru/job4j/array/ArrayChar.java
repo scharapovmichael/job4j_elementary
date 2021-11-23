@@ -3,17 +3,19 @@ package ru.job4j.array;
 public class ArrayChar {
     public static boolean startsWith(char[] word, char[] pref) {
         boolean result = true;
-        for (char index = 0; index < word.length; index++) {
-            if (word == pref) {
-                char temp = word[word.length - index];
-                word[word.length - index] = word[index];
+        for (int index = 0; index < pref.length; index++) {
+            if (word[word.length - index - 1] != pref[pref.length - index - 1]) {
+                char temp = word[word.length - index - 1];
+                word[word.length - index - 1] = word[index];
                 word[index] = temp;
-                result = true;
+                result = false;
+                break;
             }
         }
         return result;
     }
 }
+
 
 
 
