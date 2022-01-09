@@ -11,7 +11,21 @@ public class FindLoop {
         }
         return rst;
     }
+
+    public static int indexiOf(int[] data, int el, int start, int finish) {
+        int rst = -1;
+        for (int index = 0; index < data.length; index++) {
+            if (data[index] == start && data[index] == finish) {
+                if (data[index] == el) {
+                    rst = index;
+                    break;
+                }
+            }
+        }
+        return rst;
+    }
 }
+
 
 
 
