@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class SortSelected {
     public static int[] sort(int[] data) {
         boolean isSorted = false;
-        int temp = 0;
+        int temp;
         while (!isSorted) {
             isSorted = true;
 

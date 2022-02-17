@@ -13,15 +13,17 @@ public class SortSelectedTest {
         int[] expected = new int[]{1, 2, 3, 4, 5};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
-    public void thenSortArrayOf3elements(){
+    public void thenSortArrayOf3elements() {
         int[] data = new int[]{12, 25, 15};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[]{12, 15, 25};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
-    public void thenSortArrayOf5elements(){
+    public void thenSortArrayOf5elements() {
         int[] data = new int[]{34, 8, 15, 29, 81};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[]{8, 15, 29, 34, 81};
