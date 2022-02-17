@@ -19,5 +19,6 @@ public class ArrayCharTest {
         char[] pref = {'H', 'i'};
         boolean result = ArrayChar.startsWith(word, pref);
         Assert.assertFalse(result);
+
     }
 }
