@@ -17,7 +17,6 @@ public class SortSelected {
                     isSorted = false;
                 }
             }
-
         }
         return data;
     }
