@@ -13,4 +13,3 @@ public class Triangle {
         System.out.println(exist(ab, ac, bc));
     }
 }
-

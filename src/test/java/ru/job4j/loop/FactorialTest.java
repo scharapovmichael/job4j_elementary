@@ -3,8 +3,6 @@ package ru.job4j.loop;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class FactorialTest {
 
     @Test
@@ -24,4 +22,4 @@ public class FactorialTest {
         Assert.assertEquals(expected, result);
         /* напишите здесь тест, проверяющий, что факториал для числа 0 равен 1. */
     }
-    }
+}

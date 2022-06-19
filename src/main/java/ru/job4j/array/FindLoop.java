@@ -23,8 +23,3 @@ public class FindLoop {
         return rst;
     }
 }
-
-
-
-
-

@@ -16,7 +16,7 @@ public class MathCalculator {
 
     public static double whole(double first, double second) {
 
-       return sumAndMultiply(first, second)
+        return sumAndMultiply(first, second)
                 + differenceAndDiv(first, second);
     }
 
@@ -26,4 +26,3 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + whole(20, 10));
     }
 }
-

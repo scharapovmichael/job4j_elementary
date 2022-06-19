@@ -29,4 +29,3 @@ public class MinTest {
         Assert.assertEquals(expected, result);
     }
 }
-

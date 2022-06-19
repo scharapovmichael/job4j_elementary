@@ -10,6 +10,5 @@ public class Pseudocode {
         } else {
             System.out.println("b");
         }
-
     }
 }
