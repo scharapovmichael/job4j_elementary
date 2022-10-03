@@ -12,7 +12,9 @@ public class PointTest {
         int y1 = 0;
         int x2 = 2;
         int y2 = 0;
-        double out = Point.distance(x1, y1, x2, y2);
+        Point a = new Point(x1, y1);
+        Point b = new Point(x2, y2);
+        double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
 
@@ -23,18 +25,22 @@ public class PointTest {
         int y1 = 0;
         int x2 = 2;
         int y2 = 0;
-        double out = Point.distance(x1, y1, x2, y2);
+        Point a = new Point(x1, y1);
+        Point b = new Point(x2, y2);
+        double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
     public void when58to23then3() {
-        int expected = 3;
+        double expected = 5.84;
         int x1 = 5;
         int y1 = 8;
         int x2 = 2;
         int y2 = 3;
-        double out = Point.distance(x1, y2, x2, y2);
+        Point a = new Point(x1, y1);
+        Point b = new Point(x2, y2);
+        double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
 
@@ -45,7 +51,9 @@ public class PointTest {
         int y1 = 3;
         int x2 = 2;
         int y2 = 3;
-        double out = Point.distance(x1, y1, x2, y2);
+        Point a = new Point(x1, y1);
+        Point b = new Point(x2, y2);
+        double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
 
